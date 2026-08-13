@@ -48,6 +48,7 @@
   </header>
 
   <main>
+    <!-- HERO / LISTEN -->
     <section class="hero" id="listen">
       <div class="container hero-grid">
         <div class="hero-art">
@@ -82,38 +83,310 @@
           </div>
 
           <div class="stream-links" id="stream">
-            <a class="stream-btn" href="https://open.spotify.com/artist/4RReG7ft4gOWl2pNr5F8sF" target="_blank" rel="noopener">Spotify</a>
-            <a class="stream-btn" href="https://music.apple.com/za/album/the-greater-you-remedy-06-no-88-emotional-detox-single/6768036303" target="_blank" rel="noopener">Apple Music</a>
-            <a class="stream-btn" href="https://music.amazon.com/search/The%20Greater%20You%20Soozhee" target="_blank" rel="noopener">Amazon Music</a>
+            <a class="stream-btn" href="https://open.spotify.com/artist/4RReG7ft4gOWl2pNr5F8sF" target="_blank" rel="noopener" title="Spotify">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg>
+              Spotify
+            </a>
+            <a class="stream-btn" href="https://music.apple.com/za/album/the-greater-you-remedy-06-no-88-emotional-detox-single/6768036303" target="_blank" rel="noopener" title="Apple Music">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+              Apple Music
+            </a>
+            <a class="stream-btn" href="https://music.amazon.com/search/The%20Greater%20You%20Soozhee" target="_blank" rel="noopener" title="Amazon Music">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M.045 18.02c.072-.116.187-.124.348-.022 3.567 2.11 6.43 2.753 9.717 2.753 2.394 0 4.703-.493 6.8-1.365.481-.197.671-.324.671-.493 0-.208-.16-.32-.48-.32-.16 0-.32.027-.48.08-1.76.56-3.6.84-5.52.84-2.88 0-5.52-.72-7.92-2.16-.16-.08-.32-.12-.48-.12-.24 0-.4.16-.4.4 0 .08.027.16.08.24l-.156.277zm21.75-1.91c-.24.4-.72.64-1.28.64-.24 0-.48-.08-.72-.16-1.92-.8-3.92-1.2-6-1.2-2.16 0-4.24.4-6.16 1.2-.24.08-.48.16-.72.16-.56 0-1.04-.24-1.28-.64-.24-.4-.16-.88.24-1.12 2.24-1.36 4.64-2.08 7.12-2.08 2.48 0 4.88.72 7.12 2.08.4.24.48.72.24 1.12z"/></svg>
+              Amazon Music
+            </a>
           </div>
         </div>
       </div>
     </section>
 
+    <!-- LYRICS CARDS -->
     <section class="section" id="lyrics">
       <div class="container">
         <h2 class="section-title">Lyric Cards</h2>
-        <p class="section-sub">Shareable lyric frames in order. Tap any card to open full size.</p>
+        <p class="section-sub">Shareable lyric frames in order. Tap any card to open full size. One-click share to socials.</p>
         <div class="grid lyrics-grid">
-          <!-- FULL CARDS ARE IN THE LOCAL FILE - THIS IS A PLACEHOLDER FOR THE TOOL CALL LIMIT. THE COMPLETE VERSION IS READY. -->
-          <p style="color:#a89f91;text-align:center;grid-column:1/-1;">Loading full cards... If you see this, the force push of the complete file is needed. Please wait or replace the index.html with the full version from the artifacts.</p>
+                    <article class="card" data-title="The Greater You — 01/10" data-text="Love to hate them, but mesmerized the same… — The Greater You by Soozhee | thegreateryou.vercel.app" data-img="assets/lyrics/tgy-01.png">
+            <div class="card-img-wrap">
+              <span class="card-num">01</span>
+              <a href="assets/lyrics/tgy-01.png" target="_blank" rel="noopener"><img class="card-img" src="assets/lyrics/tgy-01.png" alt="Lyric card 01" loading="lazy" /></a>
+            </div>
+            <div class="card-body">
+              <div class="share-bar">
+                <button class="share-btn primary" onclick="shareCard(this)">Share</button>
+                <a class="share-btn" href="#" onclick="shareTo('x', this); return false;">𝕏</a>
+                <a class="share-btn" href="#" onclick="shareTo('fb', this); return false;">Facebook</a>
+                <a class="share-btn" href="#" onclick="shareTo('li', this); return false;">LinkedIn</a>
+                <a class="share-btn" href="#" onclick="shareTo('email', this); return false;">Email</a>
+                <button class="share-btn" onclick="copyLink(this)">Copy</button>
+                <a class="share-btn" download="tgy-01.png" href="assets/lyrics/tgy-01.png">Download</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" data-title="The Greater You — 02/10" data-text="Where does that hater mentality grow?… — The Greater You by Soozhee | thegreateryou.vercel.app" data-img="assets/lyrics/tgy-02.png">
+            <div class="card-img-wrap">
+              <span class="card-num">02</span>
+              <a href="assets/lyrics/tgy-02.png" target="_blank" rel="noopener"><img class="card-img" src="assets/lyrics/tgy-02.png" alt="Lyric card 02" loading="lazy" /></a>
+            </div>
+            <div class="card-body">
+              <div class="share-bar">
+                <button class="share-btn primary" onclick="shareCard(this)">Share</button>
+                <a class="share-btn" href="#" onclick="shareTo('x', this); return false;">𝕏</a>
+                <a class="share-btn" href="#" onclick="shareTo('fb', this); return false;">Facebook</a>
+                <a class="share-btn" href="#" onclick="shareTo('li', this); return false;">LinkedIn</a>
+                <a class="share-btn" href="#" onclick="shareTo('email', this); return false;">Email</a>
+                <button class="share-btn" onclick="copyLink(this)">Copy</button>
+                <a class="share-btn" download="tgy-02.png" href="assets/lyrics/tgy-02.png">Download</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" data-title="The Greater You — 03/10" data-text="Is it because you think you’re unseen?… — The Greater You by Soozhee | thegreateryou.vercel.app" data-img="assets/lyrics/tgy-03.png">
+            <div class="card-img-wrap">
+              <span class="card-num">03</span>
+              <a href="assets/lyrics/tgy-03.png" target="_blank" rel="noopener"><img class="card-img" src="assets/lyrics/tgy-03.png" alt="Lyric card 03" loading="lazy" /></a>
+            </div>
+            <div class="card-body">
+              <div class="share-bar">
+                <button class="share-btn primary" onclick="shareCard(this)">Share</button>
+                <a class="share-btn" href="#" onclick="shareTo('x', this); return false;">𝕏</a>
+                <a class="share-btn" href="#" onclick="shareTo('fb', this); return false;">Facebook</a>
+                <a class="share-btn" href="#" onclick="shareTo('li', this); return false;">LinkedIn</a>
+                <a class="share-btn" href="#" onclick="shareTo('email', this); return false;">Email</a>
+                <button class="share-btn" onclick="copyLink(this)">Copy</button>
+                <a class="share-btn" download="tgy-03.png" href="assets/lyrics/tgy-03.png">Download</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" data-title="The Greater You — 04/10" data-text="You judge their flaws like a mirror to your own… — The Greater You by Soozhee | thegreateryou.vercel.app" data-img="assets/lyrics/tgy-04.png">
+            <div class="card-img-wrap">
+              <span class="card-num">04</span>
+              <a href="assets/lyrics/tgy-04.png" target="_blank" rel="noopener"><img class="card-img" src="assets/lyrics/tgy-04.png" alt="Lyric card 04" loading="lazy" /></a>
+            </div>
+            <div class="card-body">
+              <div class="share-bar">
+                <button class="share-btn primary" onclick="shareCard(this)">Share</button>
+                <a class="share-btn" href="#" onclick="shareTo('x', this); return false;">𝕏</a>
+                <a class="share-btn" href="#" onclick="shareTo('fb', this); return false;">Facebook</a>
+                <a class="share-btn" href="#" onclick="shareTo('li', this); return false;">LinkedIn</a>
+                <a class="share-btn" href="#" onclick="shareTo('email', this); return false;">Email</a>
+                <button class="share-btn" onclick="copyLink(this)">Copy</button>
+                <a class="share-btn" download="tgy-04.png" href="assets/lyrics/tgy-04.png">Download</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" data-title="The Greater You — 05/10" data-text="Where does that hater mentality grow?… — The Greater You by Soozhee | thegreateryou.vercel.app" data-img="assets/lyrics/tgy-05.png">
+            <div class="card-img-wrap">
+              <span class="card-num">05</span>
+              <a href="assets/lyrics/tgy-05.png" target="_blank" rel="noopener"><img class="card-img" src="assets/lyrics/tgy-05.png" alt="Lyric card 05" loading="lazy" /></a>
+            </div>
+            <div class="card-body">
+              <div class="share-bar">
+                <button class="share-btn primary" onclick="shareCard(this)">Share</button>
+                <a class="share-btn" href="#" onclick="shareTo('x', this); return false;">𝕏</a>
+                <a class="share-btn" href="#" onclick="shareTo('fb', this); return false;">Facebook</a>
+                <a class="share-btn" href="#" onclick="shareTo('li', this); return false;">LinkedIn</a>
+                <a class="share-btn" href="#" onclick="shareTo('email', this); return false;">Email</a>
+                <button class="share-btn" onclick="copyLink(this)">Copy</button>
+                <a class="share-btn" download="tgy-05.png" href="assets/lyrics/tgy-05.png">Download</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" data-title="The Greater You — 06/10" data-text="Is it because you think you’re unseen?… — The Greater You by Soozhee | thegreateryou.vercel.app" data-img="assets/lyrics/tgy-06.png">
+            <div class="card-img-wrap">
+              <span class="card-num">06</span>
+              <a href="assets/lyrics/tgy-06.png" target="_blank" rel="noopener"><img class="card-img" src="assets/lyrics/tgy-06.png" alt="Lyric card 06" loading="lazy" /></a>
+            </div>
+            <div class="card-body">
+              <div class="share-bar">
+                <button class="share-btn primary" onclick="shareCard(this)">Share</button>
+                <a class="share-btn" href="#" onclick="shareTo('x', this); return false;">𝕏</a>
+                <a class="share-btn" href="#" onclick="shareTo('fb', this); return false;">Facebook</a>
+                <a class="share-btn" href="#" onclick="shareTo('li', this); return false;">LinkedIn</a>
+                <a class="share-btn" href="#" onclick="shareTo('email', this); return false;">Email</a>
+                <button class="share-btn" onclick="copyLink(this)">Copy</button>
+                <a class="share-btn" download="tgy-06.png" href="assets/lyrics/tgy-06.png">Download</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" data-title="The Greater You — 07/10" data-text="No wonder you’re stuck, you can’t break through… — The Greater You by Soozhee | thegreateryou.vercel.app" data-img="assets/lyrics/tgy-07.png">
+            <div class="card-img-wrap">
+              <span class="card-num">07</span>
+              <a href="assets/lyrics/tgy-07.png" target="_blank" rel="noopener"><img class="card-img" src="assets/lyrics/tgy-07.png" alt="Lyric card 07" loading="lazy" /></a>
+            </div>
+            <div class="card-body">
+              <div class="share-bar">
+                <button class="share-btn primary" onclick="shareCard(this)">Share</button>
+                <a class="share-btn" href="#" onclick="shareTo('x', this); return false;">𝕏</a>
+                <a class="share-btn" href="#" onclick="shareTo('fb', this); return false;">Facebook</a>
+                <a class="share-btn" href="#" onclick="shareTo('li', this); return false;">LinkedIn</a>
+                <a class="share-btn" href="#" onclick="shareTo('email', this); return false;">Email</a>
+                <button class="share-btn" onclick="copyLink(this)">Copy</button>
+                <a class="share-btn" download="tgy-07.png" href="assets/lyrics/tgy-07.png">Download</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" data-title="The Greater You — 08/10" data-text="Is it because you think you’re unseen?… — The Greater You by Soozhee | thegreateryou.vercel.app" data-img="assets/lyrics/tgy-08.png">
+            <div class="card-img-wrap">
+              <span class="card-num">08</span>
+              <a href="assets/lyrics/tgy-08.png" target="_blank" rel="noopener"><img class="card-img" src="assets/lyrics/tgy-08.png" alt="Lyric card 08" loading="lazy" /></a>
+            </div>
+            <div class="card-body">
+              <div class="share-bar">
+                <button class="share-btn primary" onclick="shareCard(this)">Share</button>
+                <a class="share-btn" href="#" onclick="shareTo('x', this); return false;">𝕏</a>
+                <a class="share-btn" href="#" onclick="shareTo('fb', this); return false;">Facebook</a>
+                <a class="share-btn" href="#" onclick="shareTo('li', this); return false;">LinkedIn</a>
+                <a class="share-btn" href="#" onclick="shareTo('email', this); return false;">Email</a>
+                <button class="share-btn" onclick="copyLink(this)">Copy</button>
+                <a class="share-btn" download="tgy-08.png" href="assets/lyrics/tgy-08.png">Download</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" data-title="The Greater You — 09/10" data-text="Got to get that checked, let the old self go… — The Greater You by Soozhee | thegreateryou.vercel.app" data-img="assets/lyrics/tgy-09.png">
+            <div class="card-img-wrap">
+              <span class="card-num">09</span>
+              <a href="assets/lyrics/tgy-09.png" target="_blank" rel="noopener"><img class="card-img" src="assets/lyrics/tgy-09.png" alt="Lyric card 09" loading="lazy" /></a>
+            </div>
+            <div class="card-body">
+              <div class="share-bar">
+                <button class="share-btn primary" onclick="shareCard(this)">Share</button>
+                <a class="share-btn" href="#" onclick="shareTo('x', this); return false;">𝕏</a>
+                <a class="share-btn" href="#" onclick="shareTo('fb', this); return false;">Facebook</a>
+                <a class="share-btn" href="#" onclick="shareTo('li', this); return false;">LinkedIn</a>
+                <a class="share-btn" href="#" onclick="shareTo('email', this); return false;">Email</a>
+                <button class="share-btn" onclick="copyLink(this)">Copy</button>
+                <a class="share-btn" download="tgy-09.png" href="assets/lyrics/tgy-09.png">Download</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" data-title="The Greater You — 10/10" data-text="It’s time to create the greatest you… — The Greater You by Soozhee | thegreateryou.vercel.app" data-img="assets/lyrics/tgy-10.png">
+            <div class="card-img-wrap">
+              <span class="card-num">10</span>
+              <a href="assets/lyrics/tgy-10.png" target="_blank" rel="noopener"><img class="card-img" src="assets/lyrics/tgy-10.png" alt="Lyric card 10" loading="lazy" /></a>
+            </div>
+            <div class="card-body">
+              <div class="share-bar">
+                <button class="share-btn primary" onclick="shareCard(this)">Share</button>
+                <a class="share-btn" href="#" onclick="shareTo('x', this); return false;">𝕏</a>
+                <a class="share-btn" href="#" onclick="shareTo('fb', this); return false;">Facebook</a>
+                <a class="share-btn" href="#" onclick="shareTo('li', this); return false;">LinkedIn</a>
+                <a class="share-btn" href="#" onclick="shareTo('email', this); return false;">Email</a>
+                <button class="share-btn" onclick="copyLink(this)">Copy</button>
+                <a class="share-btn" download="tgy-10.png" href="assets/lyrics/tgy-10.png">Download</a>
+              </div>
+            </div>
+          </article>
         </div>
       </div>
     </section>
 
+    <!-- ABOUT / TEACHING CARDS -->
     <section class="section" id="about">
       <div class="container">
         <h2 class="section-title">Explore the Song</h2>
+        <p class="section-sub">Explore the patterns, questions, and possibilities within The Greater You.</p>
         <div class="grid about-grid">
-          <p style="color:#a89f91;text-align:center;grid-column:1/-1;">Full pattern cards are in the complete file.</p>
+          <article class="card card-wide" data-title="The Pattern — The Greater You" data-text="Love to hate them, but mesmerized the same. The hater mentality that closes the doors you wish to explore. — thegreateryou.vercel.app" data-img="assets/cards/tgy-card-01.png">
+            <div class="card-img-wrap">
+              <span class="card-num">01 / 04</span>
+              <a href="assets/cards/tgy-card-01.png" target="_blank" rel="noopener"><img class="card-img" src="assets/cards/tgy-card-01.png" alt="The Pattern" loading="lazy" /></a>
+            </div>
+            <div class="card-body">
+              <h3>The Pattern</h3>
+              <p>When hate becomes the mirror.</p>
+              <div class="share-bar">
+                <button class="share-btn primary" onclick="shareCard(this)">Share</button>
+                <a class="share-btn" href="#" onclick="shareTo('x', this); return false;">𝕏</a>
+                <a class="share-btn" href="#" onclick="shareTo('fb', this); return false;">Facebook</a>
+                <a class="share-btn" href="#" onclick="shareTo('li', this); return false;">LinkedIn</a>
+                <a class="share-btn" href="#" onclick="shareTo('email', this); return false;">Email</a>
+                <button class="share-btn" onclick="copyLink(this)">Copy</button>
+                <a class="share-btn" download="tgy-card-01.png" href="assets/cards/tgy-card-01.png">Download</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card card-wide" data-title="The Mechanism — The Greater You" data-text="You tear them down, but what’s it for? You’re closing the same doors you wish to explore. — thegreateryou.vercel.app" data-img="assets/cards/tgy-card-02.png">
+            <div class="card-img-wrap">
+              <span class="card-num">02 / 04</span>
+              <a href="assets/cards/tgy-card-02.png" target="_blank" rel="noopener"><img class="card-img" src="assets/cards/tgy-card-02.png" alt="The Mechanism" loading="lazy" /></a>
+            </div>
+            <div class="card-body">
+              <h3>The Mechanism</h3>
+              <p>How the weight of comparison takes hold.</p>
+              <div class="share-bar">
+                <button class="share-btn primary" onclick="shareCard(this)">Share</button>
+                <a class="share-btn" href="#" onclick="shareTo('x', this); return false;">𝕏</a>
+                <a class="share-btn" href="#" onclick="shareTo('fb', this); return false;">Facebook</a>
+                <a class="share-btn" href="#" onclick="shareTo('li', this); return false;">LinkedIn</a>
+                <a class="share-btn" href="#" onclick="shareTo('email', this); return false;">Email</a>
+                <button class="share-btn" onclick="copyLink(this)">Copy</button>
+                <a class="share-btn" download="tgy-card-02.png" href="assets/cards/tgy-card-02.png">Download</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card card-wide" data-title="The Release — The Greater You" data-text="Hating them won’t make you shine. You’ve got to heal before it’s your time. — thegreateryou.vercel.app" data-img="assets/cards/tgy-card-03.png">
+            <div class="card-img-wrap">
+              <span class="card-num">03 / 04</span>
+              <a href="assets/cards/tgy-card-03.png" target="_blank" rel="noopener"><img class="card-img" src="assets/cards/tgy-card-03.png" alt="The Release" loading="lazy" /></a>
+            </div>
+            <div class="card-body">
+              <h3>The Release</h3>
+              <p>Let go of the hate. Look within to grow.</p>
+              <div class="share-bar">
+                <button class="share-btn primary" onclick="shareCard(this)">Share</button>
+                <a class="share-btn" href="#" onclick="shareTo('x', this); return false;">𝕏</a>
+                <a class="share-btn" href="#" onclick="shareTo('fb', this); return false;">Facebook</a>
+                <a class="share-btn" href="#" onclick="shareTo('li', this); return false;">LinkedIn</a>
+                <a class="share-btn" href="#" onclick="shareTo('email', this); return false;">Email</a>
+                <button class="share-btn" onclick="copyLink(this)">Copy</button>
+                <a class="share-btn" download="tgy-card-03.png" href="assets/cards/tgy-card-03.png">Download</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card card-wide" data-title="The Truth — The Greater You" data-text="Find the greater you, let your light show. No more hate, just a better view. It’s time to create the greatest you. — thegreateryou.vercel.app" data-img="assets/cards/tgy-card-04.png">
+            <div class="card-img-wrap">
+              <span class="card-num">04 / 04</span>
+              <a href="assets/cards/tgy-card-04.png" target="_blank" rel="noopener"><img class="card-img" src="assets/cards/tgy-card-04.png" alt="The Truth" loading="lazy" /></a>
+            </div>
+            <div class="card-body">
+              <h3>The Truth</h3>
+              <p>Success starts where your love can flow.</p>
+              <div class="share-bar">
+                <button class="share-btn primary" onclick="shareCard(this)">Share</button>
+                <a class="share-btn" href="#" onclick="shareTo('x', this); return false;">𝕏</a>
+                <a class="share-btn" href="#" onclick="shareTo('fb', this); return false;">Facebook</a>
+                <a class="share-btn" href="#" onclick="shareTo('li', this); return false;">LinkedIn</a>
+                <a class="share-btn" href="#" onclick="shareTo('email', this); return false;">Email</a>
+                <button class="share-btn" onclick="copyLink(this)">Copy</button>
+                <a class="share-btn" download="tgy-card-04.png" href="assets/cards/tgy-card-04.png">Download</a>
+              </div>
+            </div>
+          </article>
         </div>
       </div>
     </section>
 
+    <!-- CTA -->
     <section class="cta">
       <div class="container">
         <h2>Find the greater you.</h2>
         <p>Let your light show. It’s time to create the greatest you.</p>
+        <div class="share-bar" style="justify-content:center;">
+          <button class="share-btn primary" onclick="sharePage()">Share this page</button>
+          <button class="share-btn" onclick="copyPageLink()">Copy link</button>
+        </div>
       </div>
     </section>
   </main>
@@ -126,6 +399,7 @@
     </div>
   </footer>
 
+  <!-- LIGHTBOX -->
   <div class="lightbox" id="lightbox">
     <div class="lightbox-inner">
       <button class="lightbox-close" aria-label="Close">×</button>
@@ -134,6 +408,7 @@
   </div>
 
   <div class="toast" id="toast"></div>
+
   <script src="script.js"></script>
 </body>
 </html>
